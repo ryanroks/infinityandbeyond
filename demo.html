@@ -1,0 +1,30 @@
+<html>
+<head>
+
+<link href="css/style.css" rel="stylesheet">
+	
+</head>
+
+<body>
+
+This provides a good base to get started with an infinite scroll DIV. It can auto scroll or require user prompt before continuing.
+
+<br /><br />
+<div id="infiniteScroller">&nbsp;</div>
+
+
+</body>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.infinityandbeyond.js"></script>
+
+<script>
+	
+	$(document).ready( function() {
+		$("#infiniteScroller").infiniteScroll({auto: true});
+		});
+		
+</script>
+
+</html>
