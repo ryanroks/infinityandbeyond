@@ -1,3 +1,11 @@
+/***
+A plugin that will infinitely scroll
+on a DIV.
+
+Can be set to "auto" to scroll automatically 
+or can be required to click "load more" by users
+***/
+
 $.fn.infiniteScroll = function(options) {
 	
 	var results = [];
